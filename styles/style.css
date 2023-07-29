@@ -92,7 +92,7 @@ body {
 button {
   font-family: "Montserrat", sans-serif;
   font-size: 1.4rem;
-  padding: 1.2rem;
+  padding: 1.4rem;
   border: none;
 }
 
@@ -115,5 +115,5 @@ button {
 }
 
 .btn-element span {
-  font-weight: 500;
+  font-weight: 600;
 }
