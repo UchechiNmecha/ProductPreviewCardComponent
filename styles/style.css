@@ -1,0 +1,119 @@
+/* 
+font-family: 'Fraunces', serif;
+font-family: 'Montserrat', sans-serif;
+ */
+
+/* //////////////////////////////////////////////////////////// */
+/* general */
+/* //////////////////////////////////////////////////////////// */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+  color: hsl(228, 12%, 48%);
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.card {
+  max-width: 60rem;
+  margin: 6rem auto;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  border-radius: 0.8rem;
+  overflow: hidden;
+}
+
+/* //////////////////////////////////////////////////////////// */
+/* product-img */
+/* //////////////////////////////////////////////////////////// */
+.product-img {
+  background-image: url(../images/image-product-desktop.jpg);
+  background-size: cover;
+}
+
+/* //////////////////////////////////////////////////////////// */
+/* product */
+/* //////////////////////////////////////////////////////////// */
+.product {
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 3.2rem;
+}
+
+.product-tag {
+  font-size: 1.6rem;
+  letter-spacing: 0.32rem;
+}
+
+.product-title {
+  color: hsl(212, 21%, 14%);
+  font-family: "Fraunces", serif;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.product-details {
+  line-height: 1.6;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
+}
+
+.current-price {
+  color: hsl(158, 36%, 37%);
+  font-family: "Fraunces", serif;
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+
+button {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.4rem;
+  padding: 1.2rem;
+  border: none;
+}
+
+.add-to-cart {
+  background-color: hsl(158, 36%, 37%);
+  border-radius: 0.4rem;
+}
+
+.add-to-cart:hover {
+  box-shadow: 0.1rem 0.1rem 1rem rgba(60, 128, 103, 0.2);
+}
+
+.btn-element {
+  color: hsl(0, 0%, 100%);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+.btn-element span {
+  font-weight: 500;
+}

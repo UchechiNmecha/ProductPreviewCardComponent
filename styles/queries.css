@@ -1,0 +1,16 @@
+@media (max-width: 37.5em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .card {
+    grid-template-columns: 1fr;
+    max-width: 36rem;
+  }
+
+  .product-img {
+    height: 30rem;
+    background-image: url(../images/image-product-mobile.jpg);
+    background-size: cover;
+  }
+}
